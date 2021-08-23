@@ -87,3 +87,14 @@ def precipitation():
 
 ## Write flask run in terminal
 ### copy pase in browser: http://127.0.0.1:5000/api/v1.0/precipitation
+
+@app.route("/api/v1.0/stations")
+#Create a query that will allow us to get all of the stations in our database.
+def stations():
+    results = session.query(Station.station).all()
+    #unraveling results into a one-dimensional array and convert it to list
+    stations = list(np.ravel(results))
+    # sonify the list and return it as JSON
+    return jsonify(stations=stations)
+
+
