@@ -72,3 +72,18 @@ def welcome():
     /api/v1.0/temp/start/end
     ''')
     ## Write flask run in terminal
+
+@app.route("/api/v1.0/precipitation")
+
+
+# Calculate the date one year ago, 
+# Write query to get the data and preception for previous year
+def precipitation():
+   prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
+   precipitation = session.query(Measurement.date, Measurement.prcp).\
+    filter(Measurement.date >= prev_year).all()
+   precip = {date: prcp for date, prcp in precipitation}
+   return jsonify(precip)
+
+## Write flask run in terminal
+### copy pase in browser: http://127.0.0.1:5000/api/v1.0/precipitation
