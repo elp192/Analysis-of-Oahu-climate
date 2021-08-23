@@ -97,4 +97,15 @@ def stations():
     # sonify the list and return it as JSON
     return jsonify(stations=stations)
 
+#Write flask run in terminal
+# copy and paste in web browser: http://127.0.0.1:5000//api/v1.0/stations
+
+@app.route("/api/v1.0/tobs")
+def temp_monthly():
+    prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
+    results = session.query(Measurement.tobs).\
+      filter(Measurement.station == 'USC00519281').\
+      filter(Measurement.date >= prev_year).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps=temps)
 
