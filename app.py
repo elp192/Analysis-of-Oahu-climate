@@ -57,3 +57,18 @@ app = Flask(__name__)
 # else:
 #     print("example is being imported")
 
+# Set up welcome route
+@app.route("/")
+
+
+def welcome():
+    return(
+    '''
+    Welcome to the Climate Analysis API!
+    Available Routes:
+    /api/v1.0/precipitation
+    /api/v1.0/stations
+    /api/v1.0/tobs
+    /api/v1.0/temp/start/end
+    ''')
+    ## Write flask run in terminal
