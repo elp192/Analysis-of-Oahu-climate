@@ -130,3 +130,10 @@ def stats(start=None, end=None):
         filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps)
+
+    # Write flask run
+    # http://127.0.0.1:5000//api/v1.0/temp/start/end route
+#[null,null,null]: as we have not specified a start and end date for range.
+
+# copy and paste:
+#http://127.0.0.1:5000//api/v1.0/temp/2017-06-01/2017-06-30
