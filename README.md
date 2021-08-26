@@ -41,6 +41,11 @@ In this section, temperature and precipitation levels for June and December are 
 <img width="133" alt="prcps_Dec" src="https://user-images.githubusercontent.com/85843401/130849083-b9fd3a1f-f085-4f0c-9258-715b540f23f3.png"><figcaption>Figure 2: Comparison of June and December precipitation levels, left: box plot, rigth: statistic summaries.</figcaption></figure>
 </p>
 
-
+## Summary
+The following conclusions are obtained from Figures 1 and 2.<br>
+:white_medium_small_square: The average temperature in December (example of the cold month) is close to June (example of the warm month)(about 3.0 °F). So, it can be concluded that the weather in cold months is quite good.<br>
+:white_medium_small_square: Results related to standard deviation confirms the above conclusion as the dispersions of temperature from mean for June and December are similar. So, there is no significant difference between changes in temperature range in cold and warm months.<br>
+:white_medium_small_square: The difference between minimum temperature in June and December is 8 °F; however, this difference for 25% and 75% data points are 4 °F and 3 °F, respectively. This shows that in warm and cold months of the year for most of the data points, the difference of temperature is less than 4 °F.<br>
+:white_medium_small_square: The outliers are observed in boxplots related to the precipitation levels, which impacts the average of data. Further analysis is required to better interpret the precipitation levels of these months.
 
  
