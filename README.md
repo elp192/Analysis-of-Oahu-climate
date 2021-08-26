@@ -13,19 +13,33 @@ In this section, temperature and precipitation levels for June and December are 
 **Determine June and December temperature** (Figure 1)<br>
 - The number of available data for June (1700 data) is more than December (1517 data).<br>
 - The average temperatures in June and December are 74.94 °F and 71.04 °F, respectively.<br>
-- The medians of temperature in June and December are 75 °F and 71 °F, respectively.<br>
+- The median of temperatures in June and December are 75 °F and 71 °F, respectively.<br>
 - The spread of temperatures in December (std=3.74) is more than in June (std=3.25).<br>
 - The maximum temperatures in June and December are 84 °F and 83 °F, respectively.<br>
 - The minimum temperatures in June and December are 64 °F and 56 °F, respectively.<br>
-- The first quartiles of temperatures in June and December are 73 °F and 69 °F, respectively.<br>
-- The third quartiles of temperatures in June and December are 77 °F and 74 °F, respectively.
+- The first quartile of temperatures in June and December are 73 °F and 69 °F, respectively.<br>
+- The third quartile of temperatures in June and December are 77 °F and 74 °F, respectively.
 
 <p img align="center" width="100%">
 <img width="381" alt="box_plot_June_Dec_temps" src="https://user-images.githubusercontent.com/85843401/130854705-d6acc3ee-4fd6-4560-9b15-302cf573438a.png">
 <img width="132" alt="temps_June" src="https://user-images.githubusercontent.com/85843401/130854626-f8eeff48-e44a-4ad8-9f24-dea9d09e3500.png">
-<img width="134" alt="temps_Dec" src="https://user-images.githubusercontent.com/85843401/130854645-f987a482-a82f-432a-b7ce-fc2e762a50ae.png"><figcaption>Figure 1: Comparison of June and December temperature, left: box plot, rigth: statistic summary.</figcaption></figure>
+<img width="134" alt="temps_Dec" src="https://user-images.githubusercontent.com/85843401/130854645-f987a482-a82f-432a-b7ce-fc2e762a50ae.png"><figcaption>Figure 1: Comparison of June and December temperature, left: box plot, rigth: statistic summaries.</figcaption></figure>
 </p>
 
+**Determine June and December precipitation levels** (Figure 2)<br>
+- The number of available data for June (1574 data) is more than December (1405).
+- The average of precipitation levels in June and December are 0.13 mm and 0.21 mm, respectively.
+- The median of precipitation levels in June and December are 0.02 mm and 0.03 mm, respectively.
+- The spread of precipitation levels in December (std=0.54 mm) is more than June (std=0.33 mm).<br>
+- The maximum precipitation levels in June and December are 6.4 mm and 4.4 mm, respectively.<br>
+- The minimum and first quartile of precipitation levels in June and December are 0.<br>
+- The third quartile of precipitation levels in June and December are 0.12 mm and 0.15 mm, respectively.
+
+<p img align="center" width="100%">
+<img width="360" alt="box_plot_June_Dec_prcps" src="https://user-images.githubusercontent.com/85843401/130854793-1ec6d986-fa12-418f-be47-792a45396b06.png">
+<img width="132" alt="prcps_June" src="https://user-images.githubusercontent.com/85843401/130849076-8a8e7ab3-e243-4c77-970d-52f815dbf2a5.png">
+<img width="133" alt="prcps_Dec" src="https://user-images.githubusercontent.com/85843401/130849083-b9fd3a1f-f085-4f0c-9258-715b540f23f3.png"><figcaption>Figure 2: Comparison of June and December precipitation levels, left: box plot, rigth: statistic summaries.</figcaption></figure>
+</p>
 
 
 
